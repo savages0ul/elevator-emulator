@@ -1,0 +1,29 @@
+.root {
+  height: 150px;
+  border-top: 2px solid darkslateblue;
+  border-bottom: 2px solid darkslateblue;
+
+  padding: 40px;
+}
+
+.name {
+  color: darkslateblue;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: darkslateblue;
+  color: #ffffff;
+
+  &:hover {
+    color: deeppink;
+  }
+}
+
+.active {
+  color: lightcoral;
+  background: aquamarine;
+}
