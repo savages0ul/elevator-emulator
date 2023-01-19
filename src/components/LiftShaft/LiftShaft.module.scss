@@ -1,9 +1,10 @@
 .root {
-  width: 150px;
+  width: 100px;
   border-top: 2px solid lightcoral;
   border-bottom: 2px solid lightcoral;
   border-left: 2px solid lightcoral;
   border-right: 2px solid lightcoral;
+  position: relative;
 }
 
 .floor {
@@ -12,8 +13,4 @@
   border-bottom: 2px solid lightcoral;
   border-left: 2px solid lightcoral;
   border-right: 2px solid lightcoral;
-}
-
-.active {
-  background: bisque;
 }

@@ -1,6 +1,6 @@
 import styles from './LiftShaft.module.scss';
 import { dataFloors } from '../../data/floors';
-import clsx from 'clsx';
+import Elevator from '../Elevator';
 
 const LiftShaft = ({ activeFloor }) => {
   return (
@@ -8,11 +8,10 @@ const LiftShaft = ({ activeFloor }) => {
       {dataFloors.map((floor) => (
         <div
           key={floor.id}
-          className={clsx(styles.floor, {
-            [styles.active]: activeFloor === floor.id,
-          })}
+          className={styles.floor}
         />
       ))}
+      <Elevator activeFloor={activeFloor} />
     </div>
   );
 };
